@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About  Me</title>
+    <style>
+      body{
+       background-image: url("bg.avif");
+       background-size: cover;
+      background-repeat: no-repeat;
+      }
+      h1{
+        padding-left: 10px;
+       font-size: 56px;
+        text-align: center;
+      }
+      .about{
+        font-size: 35px;
+      }
+      .img{
+        float: right;
+        margin-top: 11px;
+      margin-left: 250px;
+      border-radius: 10px 30px;
+      }
+      .heading{
+        display:flex;
+      }
+      .btn{
+        background-color: rgb(100, 206, 174);
+        border-radius: 5px 15px;
+        margin-top: 50px;
+        font-size: 28px;
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .social a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #050505;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(103, 216, 143, 0.95);
+    margin-bottom: 35px;
+
+}
+
+.social a:hover{
+    transform: scale(1.2);
+    background: rgb(100, 206, 174);
+    transition: .4s;
+}
+    </style>
+</head>
+<body>
+  <div class="heading">
+
+    <h1>About me</h1>
+  
+    <img class="img" src="dp.jpg" width="100px" height="100px"></img></div>
+    <div class="about">
+  <li>Hello, I am Keshav Agarwal.</li>
+    
+    <li> I am in computer science and Engineering. </li>
+    <li>I am actuallly a app developer due to lack of time i am making web.</li> 
+    <li>I likes to watch cricket.</li>
+   
+  <li>I'm currently studying Flutter. </li>
+</div>
+<br><br><br>
+<center>
+<div class="social">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-github"></i></a>
+</center>
+</div>
+<center><button  onclick="openWin()" class="btn">Expectations VS Reality</button></center>
+
+
+<script>
+  function openWin() {
+    window.open("evsr.html");
+  }
+  </script>
+</body>
+</html>
